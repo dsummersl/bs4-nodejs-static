@@ -1,31 +1,80 @@
-// Customize Bootstrap Variables here
-//
-// You can override any variable from
-// /node_modules/bootstrap/scss/_variables.scss here
-//
-// With this most basic method you can
-// ONLY use
-// 1. literal values
-// 2. variables defined in this file,
-// i.e. you CAN'T use Bootstrap’s variables.
-//
-// You can do this:
-// $gray-700: #575757;
-// $font-size-lg: 2rem;
-//
-// But not this:
-// $gray-700: lighten($black, 34%);
-// $font-size-lg: ($font-size-base * 2);
-//
-// because $black isn’t defined yet.
-//
-// If you want to use Bootstrap’s variables
-// to override other variables, please see
-// _2-custom-bootstrap-variables.scss.
+$color-primary: #f37321;
+$color-primary-hover: #eb5c00;
+$color-primary-active: #f98439;
 
-// Working examples (feel free to delete them):
-$link-decoration: underline;
+$color-secondary: #0178c9;
+$color-secondary-hover: #3493d4;
+$color-secondary-active: #33b6e4;
 
-$gray-700: #575757; // this will affect all colors defined by $gray-700 variables
+$color-dark-gray: #222222;
+$color-med-gray: #4e4e4e;
+$color-light-gray: #999999;
+$color-lightest-gray: #f2f2f2;
 
-$link-color: $gray-700; // you can use “Bootstrap’s” variable here, because it was defined before.
+$grid-breakpoints: (
+  xs: 0,
+  sm: 768px,
+  md: 992px,
+  lg: 1440px,
+  xl: 1920px
+);
+
+$container-max-widths: (
+  sm: 768px,
+  md: 992px,
+  lg: 1440px,
+  xl: 1720px
+);
+
+// TODO it might be better to pick a REM or VW based width that approximates
+// these values:
+$grid-gutter-width: 30px;
+@media (min-width: map-get($grid-breakpoints, xs)) and (max-width: map-get($grid-breakpoints, sm)) {
+  .row > .col,
+  .row > [class*="col-"] {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+
+  .container:not(.no-gutters) {
+    padding-left: #{$grid-gutter-width / 2 + 15};
+    padding-right: #{$grid-gutter-width / 2 + 15};
+  }
+}
+
+@media (min-width: map-get($grid-breakpoints, sm)) and (max-width: map-get($grid-breakpoints, md)) {
+  .row > .col,
+  .row > [class*="col-"] {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .container:not(.no-gutters) {
+    padding-left: #{$grid-gutter-width / 2 + 25};
+    padding-right: #{$grid-gutter-width / 2 + 25};
+  }
+}
+
+@media (min-width: map-get($grid-breakpoints, lg)) and (max-width: map-get($grid-breakpoints, xl)) {
+  .row > .col,
+  .row > [class*="col-"] {
+    padding-left: 12.5px;
+    padding-right: 12.5px;
+  }
+
+  .container:not(.no-gutters) {
+    padding-left: #{$grid-gutter-width / 2 + 30};
+    padding-right: #{$grid-gutter-width / 2 + 30};
+  }
+}
+
+@media (min-width: map-get($grid-breakpoints, xl)) {
+  .row > .col,
+  .row > [class*="col-"] {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}
+
+$primary: $color-primary !default;
+$secondary: $color-secondary !default;
