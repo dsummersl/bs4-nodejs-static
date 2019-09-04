@@ -1,0 +1,10 @@
+.footer {
+  background-color: $color-lightest-gray;
+
+  .footer__section {
+    li {
+      font-size: 0.9rem;
+      color: $color-med-gray;
+    }
+  }
+}
