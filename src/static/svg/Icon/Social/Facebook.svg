@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="17px" viewBox="0 0 10 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Icon / Social / Facebook</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M7.11840278,2.76000977 L8.70833333,2.76000977 L8.70833333,0.116894531 C8.43454861,0.0811767578 7.49114583,0 6.39270833,0 C4.10017361,0 2.53003472,1.37675781 2.53003472,3.90622559 L2.53003472,6.234375 L0,6.234375 L0,9.18920898 L2.53003472,9.18920898 L2.53003472,16.625 L5.63072917,16.625 L5.63072917,9.18920898 L8.05850694,9.18920898 L8.44444444,6.234375 L5.63072917,6.234375 L5.63072917,4.19846191 C5.63072917,3.34448242 5.87152778,2.76000977 7.11840278,2.76000977 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-/-Social-/-Facebook" transform="translate(-9.000000, -6.000000)">
+            <g id="Icons-/-Social-/-Black-/-Facebook" transform="translate(3.947368, 4.736842)">
+                <g id="facebook-f-brands" transform="translate(5.541667, 1.583333)">
+                    <g id="Icon">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <g id="Color-/-Blue" mask="url(#mask-2)" fill="#0178C9">
+                            <g transform="translate(-5.541667, -1.583333)" id="Color">
+                                <rect x="0" y="0" width="19" height="19"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

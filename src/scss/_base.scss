@@ -7,4 +7,19 @@
       color: $color-med-gray;
     }
   }
+
+  .footer__section__social {
+    a {
+      background-color: #78839132;
+      height: 30px;
+      width: 30px;
+
+      img {
+        top: 6px;
+        left: 6px;
+        height: 17px;
+        width: 17px;
+      }
+    }
+  }
 }

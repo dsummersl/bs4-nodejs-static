@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Icon / Social / LinkedIn</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M3.18963401,14.25 L0.235326936,14.25 L0.235326936,4.73621652 L3.18963401,4.73621652 L3.18963401,14.25 Z M1.71089043,3.43844866 C0.766402589,3.43844866 0,2.65597098 0,1.71127232 C0,0.766573661 0.766402589,0 1.71089043,0 C2.65537826,0 3.42178085,0.766573661 3.42178085,1.71127232 C3.42178085,2.65597098 2.65537826,3.43844866 1.71089043,3.43844866 Z M14.2468199,14.25 L11.298873,14.25 L11.298873,9.61875 C11.298873,8.51501116 11.2766124,7.09955357 9.76288775,7.09955357 C8.22690248,7.09955357 7.99157554,8.29871652 7.99157554,9.53922991 L7.99157554,14.25 L5.04044856,14.25 L5.04044856,4.73621652 L7.87391207,4.73621652 L7.87391207,6.03398437 L7.91525329,6.03398437 C8.30958491,5.28649554 9.27315331,4.49765625 10.7105557,4.49765625 C13.6998438,4.49765625 14.25,6.46657366 14.25,9.02393973 L14.25,14.25 L14.2468199,14.25 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-/-Social-/-LinkedIn" transform="translate(-7.000000, -7.000000)">
+            <g id="Icons-/-Social-/-Black-/-LinkedIn" transform="translate(5.526316, 5.526316)">
+                <g id="linkedin-in-brands" transform="translate(2.375000, 2.375000)">
+                    <g id="Icon">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <g id="Color-/-Blue" mask="url(#mask-2)" fill="#0178C9">
+                            <g transform="translate(-2.375000, -2.375000)" id="Color">
+                                <rect x="0" y="0" width="19" height="19"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Icon / Social / YouTube</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15.5024805,1.73416645 C15.3203838,1.05156011 14.7838641,0.51396072 14.102647,0.331518663 C12.867892,0 7.91666667,0 7.91666667,0 C7.91666667,0 2.96547032,0 1.73068636,0.331518663 C1.04946924,0.513989583 0.512949508,1.05156011 0.330852868,1.73416645 C0,2.97143012 0,5.55286545 0,5.55286545 C0,5.55286545 0,8.13430078 0.330852868,9.37156445 C0.512949508,10.0541708 1.04946924,10.5693726 1.73068636,10.7518147 C2.96547032,11.0833333 7.91666667,11.0833333 7.91666667,11.0833333 C7.91666667,11.0833333 12.867863,11.0833333 14.102647,10.7518147 C14.7838641,10.5693726 15.3203838,10.0541708 15.5024805,9.37156445 C15.8333333,8.13430078 15.8333333,5.55286545 15.8333333,5.55286545 C15.8333333,5.55286545 15.8333333,2.97143012 15.5024805,1.73416645 Z M6.29733728,7.89661523 L6.29733728,3.20911567 L10.4355784,5.55292318 L6.29733728,7.89661523 Z" id="path-1"></path>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons-/-Social-/-YouTube" transform="translate(-7.000000, -9.000000)">
+            <g id="Icons-/-Social-/-Black-/-YouTube" transform="translate(5.526316, 5.526316)">
+                <g id="youtube-brands">
+                    <polygon id="Path" points="0 0 19 0 19 19 0 19"></polygon>
+                    <g id="Icon" transform="translate(1.583333, 3.958333)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <g id="Color-/-Blue" mask="url(#mask-2)" fill="#0178C9">
+                            <g transform="translate(-1.583333, -3.958333)" id="Color">
+                                <rect x="0" y="0" width="19" height="19"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
