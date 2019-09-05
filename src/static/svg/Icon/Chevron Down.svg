@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="6px" viewBox="0 0 10 6" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>Icon / Chevron Down</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="5.5575 1.0575 4.5 0 0 4.5 4.5 9 5.5575 7.9425 2.1225 4.5"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Footer-/-Deskop" transform="translate(-1209.000000, -378.000000)">
+            <g id="Region-selector" transform="translate(1077.000000, 371.000000)">
+                <g id="Region" transform="translate(28.000000, 1.000000)">
+                    <g id="Action-/-Chevron-Down-Copy-1" transform="translate(100.000000, 0.000000)">
+                        <g id="Icon-/-Chevron-Small" transform="translate(9.000000, 9.000000) rotate(-90.000000) translate(-9.000000, -9.000000) ">
+                            <g id="Icon" transform="translate(6.000000, 4.500000)">
+                                <mask id="mask-2" fill="white">
+                                    <use xlink:href="#path-1"></use>
+                                </mask>
+                                <use id="Mask" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                                <g id="Color-/-Blue" mask="url(#mask-2)" fill="#0178C9">
+                                    <rect id="Color" x="0" y="0" width="7" height="9"></rect>
+                                </g>
+                            </g>
+                            <polygon id="Shape" points="0 0 18 0 18 18 0 18"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

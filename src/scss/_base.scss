@@ -1,10 +1,23 @@
 .footer {
   background-color: $color-lightest-gray;
 
+  .footer__text {
+    font-size: 0.9rem;
+    color: $color-med-gray;
+  }
+
+  .footer__link {
+    @extend .footer__text;
+
+    &:hover {
+      color: $color-secondary;
+      text-decoration: none;
+    }
+  }
+
   .footer__section {
-    li {
-      font-size: 0.9rem;
-      color: $color-med-gray;
+    a {
+      @extend .footer__link;
     }
   }
 
@@ -19,6 +32,20 @@
         left: 6px;
         height: 17px;
         width: 17px;
+      }
+    }
+  }
+
+  .footer__copyright {
+    background-color: #ebeced;
+
+    a {
+      @extend .footer__link;
+    }
+
+    .footer__copyright__region-picker {
+      span {
+        color: $color-secondary;
       }
     }
   }
