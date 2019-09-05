@@ -1,19 +1,19 @@
+.footer__text {
+  font-size: 0.9rem;
+  color: $color-med-gray;
+}
+
+.footer__link {
+  @extend .footer__text;
+
+  &:hover {
+    color: $color-secondary;
+    text-decoration: none;
+  }
+}
+
 .footer {
   background-color: $color-lightest-gray;
-
-  .footer__text {
-    font-size: 0.9rem;
-    color: $color-med-gray;
-  }
-
-  .footer__link {
-    @extend .footer__text;
-
-    &:hover {
-      color: $color-secondary;
-      text-decoration: none;
-    }
-  }
 
   .footer__section {
     a {
@@ -35,18 +35,20 @@
       }
     }
   }
+}
 
-  .footer__copyright {
-    background-color: #ebeced;
+.footer__copyright {
+  background-color: #ebeced;
 
-    a {
-      @extend .footer__link;
-    }
+  a {
+    @extend .footer__link;
+  }
 
-    .footer__copyright__region-picker {
-      span {
-        color: $color-secondary;
-      }
+  .footer__copyright__region-picker {
+    margin-top: 0.7rem;
+
+    span {
+      color: $color-secondary;
     }
   }
 }

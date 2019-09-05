@@ -76,6 +76,10 @@ $grid-gutter-width: 30px;
   }
 }
 
+.container.no-container-gutters > .row {
+  @extend .no-gutters;
+}
+
 $primary: $color-primary !default;
 $secondary: $color-secondary !default;
 
